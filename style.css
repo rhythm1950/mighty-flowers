@@ -1,0 +1,280 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+/* -----------------------------
+Hero section styling 
+----------------------------- */
+.hero-section {
+  background-color: rgba(255, 152, 222, 0.272);
+  display: flex;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.hero-text-div {
+  width: 60%;
+  padding-left: 8%;
+}
+
+.hero-title {
+  font-size: 40px;
+}
+
+.hero-description {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.575);
+  line-height: 26px;
+}
+
+.hero-img-div {
+  width: 40%;
+}
+
+.hero-image {
+  display: block;
+  margin: 0px auto;
+}
+
+.primary-button {
+  background-color: rgb(255, 38, 208);
+  color: white;
+  font-weight: 600;
+  border: 1px solid rgb(255, 38, 208);
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* -- -----------------
+Featured Section
+----------------- */
+.featured {
+  padding: 80px 0;
+}
+
+.heading-div {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.heading-div p {
+  padding-top: 4px;
+}
+
+.features-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.features-img-div {
+  margin: 10px;
+  text-align: center;
+}
+
+.features-img-div h4 {
+  text-decoration: underline;
+  padding: 15px 0;
+}
+
+.feature-img {
+  width: 260px;
+  height: 300px;
+  padding: 50px 40px 0px 40px;
+  border-radius: 140px 140px 0px 0px;
+}
+
+#feature-img-1 {
+  background-color: rgba(212, 157, 187, 0.518);
+}
+
+#feature-img-2 {
+  background-color: rgba(157, 194, 212, 0.518);
+}
+
+#feature-img-3 {
+  background-color: rgba(173, 212, 157, 0.518);
+}
+/* -----------------------------
+Special features styling 
+----------------------------- */
+.special-features {
+  background-color: rgba(255, 240, 250, 0.584);
+  padding: 20px 0px;
+  width: 80%;
+  margin: 0px auto 60px auto;
+}
+
+.special-feature-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.special-features-div {
+  padding: 40px 60px;
+  text-align: center;
+}
+/* -----------------------------
+Hot deal section styling 
+----------------------------- */
+.hot-deal-section {
+  background-color: rgba(255, 152, 222, 0.272);
+  display: flex;
+  align-items: center;
+}
+
+.hot-deal-text-div {
+  width: 60%;
+  padding-left: 8%;
+  text-align: center;
+}
+
+.hot-deal-title {
+  font-size: 28px;
+}
+
+.hot-deal-title span {
+  color: red;
+}
+
+.hot-deal-description {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  color: rgba(0, 0, 0, 0.575);
+  line-height: 26px;
+}
+
+.hot-deal-img-div {
+  width: 40%;
+}
+
+.hot-deal-image {
+  display: block;
+  margin: 0px auto;
+  width: 200px;
+  padding: 40px 0px;
+}
+
+.button {
+  background-color: rgb(255, 255, 255);
+  color: rgba(242, 176, 154, 255);
+  border: 1px solid white;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+/* -----------------------------
+Instagram section styling 
+----------------------------- */
+.instagram {
+  padding: 80px 0;
+}
+
+.instagram-img-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.instagram-img {
+  width: 240px;
+  height: 240px;
+  margin: 7px;
+}
+/* -----------------------------
+Testimonials section styling 
+----------------------------- */
+.testimonials {
+  text-align: center;
+  width: 80%;
+  margin: 0px auto;
+  padding: 0 0 80px 0;
+}
+
+.testimonial-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.testimonial {
+  padding: 40px;
+  box-shadow: 10px 10px 40px rgb(220, 220, 220);
+  margin: 14px;
+}
+
+.rating-img {
+  width: 120px;
+}
+/* -----------------------------
+Newsletter section styling 
+----------------------------- */
+.newsletter {
+  background: url(./assets/Rectangle\ 9.png) rgba(0, 0, 0, 0.3);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 50px 100px;
+  width: 80%;
+  margin: 0px auto 60px auto;
+  background-blend-mode: multiply;
+}
+
+.newsletter-div {
+  text-align: center;
+  padding: 20px 100px;
+}
+
+.subscription-form {
+  display: flex;
+}
+
+.input-text {
+  width: 100%;
+  padding: 12px 0;
+  margin: 18px auto;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.submit-button {
+  background-color: rgb(255, 38, 208);
+  color: white;
+  font-weight: 600;
+  border: 1px solid rgb(255, 38, 208);
+  padding: 2px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* -----------------------------
+Footer section styling 
+----------------------------- */
+.footer {
+  background-color: rgb(36, 36, 36);
+  padding: 50px;
+  text-align: center;
+  color: white;
+}
+
+.footer h2 span {
+  color: rgb(255, 33, 207);
+}
+
+.footer .copyright {
+  color: rgb(143, 143, 143);
+  font-size: 14px;
+  margin-top: 20px;
+}
